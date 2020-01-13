@@ -1,0 +1,9 @@
+#page-local_vuedemo .kanban-card {
+  margin: 1em; }
+  #page-local_vuedemo .kanban-card :hover {
+    cursor: move; }
+
+#page-local_vuedemo .kanban .col {
+  border-left: 1px solid grey; }
+  #page-local_vuedemo .kanban .col:first-of-type {
+    border-left: none !important; }

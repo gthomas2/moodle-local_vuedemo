@@ -1,0 +1,15 @@
+#page-local_vuedemo {
+    .kanban-card {
+        margin: 1em;
+        :hover {
+            cursor: move;
+        }
+    }
+
+    .kanban .col {
+        border-left: 1px solid grey;
+        &:first-of-type{
+            border-left: none !important;
+        }
+    }
+}

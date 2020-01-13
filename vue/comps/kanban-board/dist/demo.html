@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>kanban-board demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./kanban-board.umd.js"></script>
+<link rel="stylesheet" href="./kanban-board.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: kanban-board
+  }
+}).$mount('#app')
+</script>
